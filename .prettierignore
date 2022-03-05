@@ -1,0 +1,12 @@
+# Dependency directories
+node_modules/
+jspm_packages/
+
+# next.js build output
+.next
+
+# Compiled output
+/build
+/dist
+/tmp
+/out-tsc
