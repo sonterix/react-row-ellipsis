@@ -1,8 +1,8 @@
 {
   "name": "react-row-ellipsis",
-  "description": "Allow to ellipsis a text",
+  "description": "The package will allow you to easily cut a text to the indicated amount of lines",
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/REPOSITORY_NAME"
+    "registry": "https://npm.pkg.github.com/react-row-ellipsis"
   },
   "version": "1.0.0",
   "author": "sonterix",
@@ -14,7 +14,8 @@
   ],
   "types": "dist/index.d.ts",
   "scripts": {
-    "rollup": "rollup -c"
+    "build": "rollup -c",
+    "pub": "npm publish"
   },
   "devDependencies": {
     "@rollup/plugin-commonjs": "^21.0.2",
