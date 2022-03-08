@@ -1,10 +1,12 @@
 {
   "name": "react-row-ellipsis",
+  "description": "Allow to ellipsis a text",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/REPOSITORY_NAME"
+  },
   "version": "1.0.0",
-  "private": true,
   "author": "sonterix",
   "license": "ISC",
-  "description": "Helps to ellipsis a row",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
   "files": [
@@ -13,29 +15,6 @@
   "types": "dist/index.d.ts",
   "scripts": {
     "rollup": "rollup -c"
-  },
-  "eslintConfig": {
-    "extends": [
-      "react-app"
-    ]
-  },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
-  },
-  "dependencies": {
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2",
-    "react-scripts": "5.0.0",
-    "typescript": "~4.6.2"
   },
   "devDependencies": {
     "@rollup/plugin-commonjs": "^21.0.2",
@@ -55,7 +34,11 @@
     "eslint-plugin-react": "^7.29.3",
     "eslint-plugin-react-hooks": "^4.3.0",
     "prettier": "^2.5.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-scripts": "5.0.0",
     "rollup": "^2.69.1",
-    "rollup-plugin-dts": "^4.2.0"
+    "rollup-plugin-dts": "^4.2.0",
+    "typescript": "^4.6.2"
   }
 }
