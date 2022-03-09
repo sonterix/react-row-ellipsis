@@ -17,7 +17,10 @@ Check for [demo](https://ok3tbe.csb.app/)
 ```jsx
 import { Ellipsis } from 'react-row-ellipsis'
 
-<Ellipsis text="Lorem Ipsum is simply dummy text of the printing and typesetting industry" lines={2} />
+<Ellipsis
+  text="Lorem Ipsum is simply dummy text of the printing and typesetting industry"
+  lines={2}
+/>
 ```
 
 ## Options
