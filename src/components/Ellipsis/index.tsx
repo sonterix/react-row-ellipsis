@@ -1,6 +1,6 @@
 type EllipsisProps = {
   [key: string]: any
-  lines: number
+  lines?: number
   text: string
 }
 
@@ -18,5 +18,9 @@ const Ellipsis = ({ lines, text, ...props }: EllipsisProps): JSX.Element => (
     {text}
   </p>
 )
+
+Ellipsis.defaultProps = {
+  lines: 1
+}
 
 export default Ellipsis
