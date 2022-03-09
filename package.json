@@ -1,21 +1,29 @@
 {
   "name": "react-row-ellipsis",
   "description": "The package will allow you to easily cut a text to the indicated amount of lines",
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/react-row-ellipsis"
-  },
   "version": "1.0.0",
   "author": "sonterix",
-  "license": "ISC",
+  "license": "MTI",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
+  "homepage": "https://github.com/sonterix/react-row-ellipsis#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sonterix/react-row-ellipsis"
+  },
+  "keywords": [
+    "react",
+    "ellipsis",
+    "truncate",
+    "multiline"
+  ],
   "files": [
     "dist"
   ],
   "types": "dist/index.d.ts",
   "scripts": {
     "build": "rollup -c",
-    "pub": "npm publish"
+    "pub": "npm publish --access public"
   },
   "devDependencies": {
     "@rollup/plugin-commonjs": "^21.0.2",
