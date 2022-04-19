@@ -1,9 +1,8 @@
-interface EllipsisProps extends React.HTMLProps<HTMLParagraphElement> {
-  text: string
+interface EllipsisProps extends React.HTMLProps<HTMLElement> {
   lines?: number
 }
 
-const Ellipsis = ({ lines, text, style, ...props }: EllipsisProps): JSX.Element => {
+const Ellipsis = ({ lines, style, children, ...props }: EllipsisProps): JSX.Element => {
   const customStyles: React.CSSProperties = {
     ...(style || {}),
     display: '-webkit-box',
@@ -15,7 +14,7 @@ const Ellipsis = ({ lines, text, style, ...props }: EllipsisProps): JSX.Element 
 
   return (
     <p style={customStyles} {...props}>
-      {text}
+      {children}
     </p>
   )
 }
