@@ -1,16 +1,21 @@
-# react-row-ellipsis
+<h1 align="center">🖖 Welcome to <code>react-row-ellipsis</code></h1>
 
 <p align="center">
   <img alt="npm" src="https://img.shields.io/npm/v/react-row-ellipsis?color=yellow" />
   <img alt="npm bundle size" src="https://img.shields.io/bundlephobia/minzip/react-row-ellipsis?label=size" />
   <img alt="npm" src="https://img.shields.io/npm/dt/react-row-ellipsis" />
   <img alt="NPM" src="https://img.shields.io/npm/l/react-row-ellipsis" />
-
 </p>
 
-Simple easy to use package which allow you to truncate a text with line indication. You can truncate not only simple string but also any elements/tags inside the component.
+<hr />
 
-## 💾 Installation
+## 📄 Description
+
+Simple easy to use [React](https://reactjs.org) component which allow you to truncate a text with line indication. You can truncate not only simple string but also any elements/tags inside the component. Lines amount are configurable and works based on container or screen size. So you don't have to worry about different screen sizes. Lines amount will stay exactly the same. 
+
+## 📦 Installation
+
+Just run the following command at the root of your project:
 
 ```bash
 npm install react-row-ellipsis
@@ -18,7 +23,8 @@ npm install react-row-ellipsis
 
 ## ✨ Demo
 
-Check for [demo](https://ok3tbe.csb.app/)
+Feel free to check the demo to test the component with your options:
+### Check [Demo](https://ok3tbe.csb.app/)
 
 ## 🚀 Usage
 
@@ -32,15 +38,11 @@ import { Ellipsis } from 'react-row-ellipsis'
 </Ellipsis>
 ```
 
-## 🔧 Options
+## 🛠 Props
 
-### props.text {String}
-
-Text that you want to truncate
-
-### props.lines {Number}. By default 1
-
-Number of line that you want to have
+| Props | Type   | Default | Description                    |
+|-------|--------|---------|--------------------------------|
+| lines | number | 1       | Set amount of lines to display |
 
 ## 🤝 Contribution
 
