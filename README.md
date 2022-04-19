@@ -1,5 +1,13 @@
 # react-row-ellipsis
 
+<p align="center">
+  <img alt="npm" src="https://img.shields.io/npm/v/react-row-ellipsis?color=yellow" />
+  <img alt="npm bundle size" src="https://img.shields.io/bundlephobia/minzip/react-row-ellipsis?label=size" />
+  <img alt="npm" src="https://img.shields.io/npm/dt/react-row-ellipsis" />
+  <img alt="NPM" src="https://img.shields.io/npm/l/react-row-ellipsis" />
+
+</p>
+
 Simple easy to use package which allow you to truncate a text with line indication. You can truncate not only simple string but also any elements/tags inside the component.
 
 ## 💾 Installation
