@@ -1,7 +1,8 @@
 # Compiled output
-/build
-/tmp
-/out-tsc
+build
+dist
+tmp
+out-tsc
 
 # Runtime data
 pids
@@ -31,9 +32,9 @@ bower_components
 .idea
 .project
 .classpath
-.c9/
+.c9
 *.launch
-.settings/
+.settings
 *.sublime-workspace
 
 # IDE - VSCode
