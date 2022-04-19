@@ -46,6 +46,7 @@ import { Ellipsis } from 'react-row-ellipsis'
 | Props | Type   | Default | Description                    |
 |-------|--------|---------|--------------------------------|
 | lines | number | 1       | Set amount of lines to display |
+| as    | string | p       | Set render tag                 |
 <br />
 
 ## 🤝 Contribution
