@@ -1,8 +1,11 @@
+import { createElement } from 'react'
+
 interface EllipsisProps extends React.HTMLProps<HTMLElement> {
   lines?: number
+  as?: string
 }
 
-const Ellipsis = ({ lines, style, children, ...props }: EllipsisProps): JSX.Element => {
+const Ellipsis = ({ lines, as, style, children, ...props }: EllipsisProps): JSX.Element => {
   const customStyles: React.CSSProperties = {
     ...(style || {}),
     display: '-webkit-box',
@@ -12,15 +15,12 @@ const Ellipsis = ({ lines, style, children, ...props }: EllipsisProps): JSX.Elem
     textOverflow: 'ellipsis'
   }
 
-  return (
-    <p style={customStyles} {...props}>
-      {children}
-    </p>
-  )
+  return createElement(as || 'p', { style: customStyles, ...props }, children)
 }
 
 Ellipsis.defaultProps = {
-  lines: 1
+  lines: 1,
+  as: 'p'
 }
 
 export default Ellipsis
