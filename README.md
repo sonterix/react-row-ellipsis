@@ -30,13 +30,39 @@ Feel free to check the demo to test the component with your options:
 
 ## 🚀 Usage
 
+## Just import the component and you are good to go
+ 
 ```jsx
 import { Ellipsis } from 'react-row-ellipsis'
+```
+<br />
 
+## 🌉 Examples
+
+### Basic example. Truncate simple string
+
+
+```jsx
 <Ellipsis lines={2}>
-  Lorem ipsum dolor sit amet.
-  <span>Lorem ipsum dolor sit amet consectetur adipisicing elit.</span>
-  Lorem ipsum dolor sit.
+  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+  Cum quidem dolorum sapiente, incidunt perferendis praesentium.
+</Ellipsis>
+```
+
+### Example with the tags inside. You can use different tags but you want to use inline tags
+
+```jsx
+<Ellipsis lines={1}>
+  <strog>Lorem, ipsum dolor.</strong>
+  <span>Lorem ipsum dolor sit <a href="#">amet</a> consectetur adipisicing elit.</span>
+</Ellipsis>
+```
+### Example with another tag. The text will be rendered in the `<div>` tag
+
+```jsx
+<Ellipsis lines={3} as="div">
+  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+  Soluta eum, quaerat quidem unde deserunt harum sint ex cum.
 </Ellipsis>
 ```
 <br />
