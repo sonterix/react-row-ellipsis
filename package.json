@@ -1,7 +1,7 @@
 {
   "name": "react-row-ellipsis",
   "description": "The package will allow you to easily cut a text to the indicated amount of lines",
-  "version": "2.1.1",
+  "version": "2.1.2",
   "author": "sonterix",
   "license": "MTI",
   "main": "dist/cjs/index.js",
