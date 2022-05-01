@@ -19,6 +19,8 @@ Just run the following command at the root of your project:
 
 ```bash
 npm install react-row-ellipsis
+# or
+yarn add react-row-ellipsis
 ```
 <p>&nbsp;</p>
 
